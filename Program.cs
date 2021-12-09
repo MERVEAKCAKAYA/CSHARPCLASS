@@ -42,7 +42,7 @@ namespace ClassStructer
     }
 }
 */
-using System;
+/*using System;
 
 namespace ClassStructer
 {
@@ -97,6 +97,77 @@ namespace ClassStructer
             Console.WriteLine("Calisan numarasi: {0}",Numara);
             Console.WriteLine("Calisan departmani: {0}",Departman);
 
+        }
+    }
+}*/
+
+using System;
+
+namespace ClassStructer
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           
+            Ogrenci ogr1 = new Ogrenci();
+            ogr1.Isim="merve";
+            ogr1.Soyisim="akçakaya";
+            ogr1.Sinif=4;
+            ogr1.Ogrno=170202;
+            ogr1.OgrenciBilgileriniGetir();
+            ogr1.sinifAtlat();
+            ogr1.OgrenciBilgileriniGetir();
+
+        }
+    }
+
+
+    class Ogrenci{
+        private string ısim;
+        private string soyisim;
+        private int ogrno;
+        private int sinif;
+
+        public string Isim { get => ısim; set => ısim = value; } //ismin yanindaki lamaya tikladim ve kapsulle dedim, otomatik olusturdu bunu.
+        public string Soyisim { get => soyisim; set => soyisim = value; }
+        public int Ogrno { get => ogrno; set => ogrno = value; }
+        public int Sinif { 
+         get => sinif;
+         set{
+             if(value<1){
+                 Console.WriteLine("sinif en az 1 olmali!");
+                 sinif=1;
+             }else{
+                 sinif=value;
+             }
+         } 
+         }//eger ben buradaki seti silersem yukarida sinif=4 dememe izin vermez hata verir.
+         //get seti bu sekilde de tanimlayabilirim.
+
+        public Ogrenci(){}
+
+        public Ogrenci(string isim, string soyisim, int ogrno, int sinif){
+            Isim=isim;
+            Soyisim=soyisim;
+            Ogrno=ogrno;
+            Sinif=sinif;
+        }
+
+        public void OgrenciBilgileriniGetir(){
+            Console.WriteLine("isim: {0}",this.Isim);
+            Console.WriteLine("soyisim: {0}",this.Soyisim);
+            Console.WriteLine("ogrenci numarasi: {0}",this.Ogrno);
+            Console.WriteLine("sinif: {0}",this.Sinif);
+
+        }
+
+        public void sinifAtlat(){
+            this.Sinif+=1;
+        }
+
+        public void sinifDusur(){
+            this.Sinif-=1;
         }
     }
 }
