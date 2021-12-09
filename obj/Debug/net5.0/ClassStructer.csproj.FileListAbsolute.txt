@@ -1,0 +1,16 @@
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\bin\Debug\net5.0\ClassStructer.exe
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\bin\Debug\net5.0\ClassStructer.deps.json
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\bin\Debug\net5.0\ClassStructer.runtimeconfig.json
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\bin\Debug\net5.0\ClassStructer.runtimeconfig.dev.json
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\bin\Debug\net5.0\ClassStructer.dll
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\bin\Debug\net5.0\ref\ClassStructer.dll
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\bin\Debug\net5.0\ClassStructer.pdb
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\obj\Debug\net5.0\ClassStructer.csproj.AssemblyReference.cache
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\obj\Debug\net5.0\ClassStructer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\obj\Debug\net5.0\ClassStructer.AssemblyInfoInputs.cache
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\obj\Debug\net5.0\ClassStructer.AssemblyInfo.cs
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\obj\Debug\net5.0\ClassStructer.csproj.CoreCompileInputs.cache
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\obj\Debug\net5.0\ClassStructer.dll
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\obj\Debug\net5.0\ref\ClassStructer.dll
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\obj\Debug\net5.0\ClassStructer.pdb
+C:\Users\merve\Desktop\DOTNETCORE\ClassStructer\obj\Debug\net5.0\ClassStructer.genruntimeconfig.cache
